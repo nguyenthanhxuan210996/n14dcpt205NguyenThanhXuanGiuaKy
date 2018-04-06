@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <DbDacFx path="D:\Học Viện Công NGhệ Bưu Chính Viễn Thông TP.HCM\NĂM 4 HỌC KÌ 2\LẬP TRÌNH ỨNG DỤNG TRÊN ĐẦU CUỐI DI ĐỘNG\SimpleRESTServer\SimpleRESTServer\obj\Release\AutoScripts\BCMoneyConnectionString_IncrementalSchemaOnly.dacpac" dacpacAction="Deploy" />
+  <DbFullSql path="D:\Học Viện Công NGhệ Bưu Chính Viễn Thông TP.HCM\NĂM 4 HỌC KÌ 2\LẬP TRÌNH ỨNG DỤNG TRÊN ĐẦU CUỐI DI ĐỘNG\SimpleRESTServer\Grant.sql" Transacted="False" />
+  <IisApp path="D:\Học Viện Công NGhệ Bưu Chính Viễn Thông TP.HCM\NĂM 4 HỌC KÌ 2\LẬP TRÌNH ỨNG DỤNG TRÊN ĐẦU CUỐI DI ĐỘNG\SimpleRESTServer\SimpleRESTServer\obj\Release\Package\PackageTmp" />
+  <setAcl path="D:\Học Viện Công NGhệ Bưu Chính Viễn Thông TP.HCM\NĂM 4 HỌC KÌ 2\LẬP TRÌNH ỨNG DỤNG TRÊN ĐẦU CUỐI DI ĐỘNG\SimpleRESTServer\SimpleRESTServer\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="D:\Học Viện Công NGhệ Bưu Chính Viễn Thông TP.HCM\NĂM 4 HỌC KÌ 2\LẬP TRÌNH ỨNG DỤNG TRÊN ĐẦU CUỐI DI ĐỘNG\SimpleRESTServer\SimpleRESTServer\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+</sitemanifest>

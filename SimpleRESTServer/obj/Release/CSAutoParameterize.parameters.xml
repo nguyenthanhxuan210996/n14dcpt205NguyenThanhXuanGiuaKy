@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="BCMoneyConnectionString-Web.config Connection String" description="BCMoneyConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=.;Initial Catalog=BCMoney;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Học\ Viện\ Công\ NGhệ\ Bưu\ Chính\ Viễn\ Thông\ TP\.HCM\\NĂM\ 4\ HỌC\ KÌ\ 2\\LẬP\ TRÌNH\ ỨNG\ DỤNG\ TRÊN\ ĐẦU\ CUỐI\ DI\ ĐỘNG\\SimpleRESTServer\\SimpleRESTServer\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='BCMoneyConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

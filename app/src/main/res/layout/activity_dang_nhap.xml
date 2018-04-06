@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dang_nhap"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.nguyenthanhxuan.quanlychitieubaocao.DangNhapActivity">
+
+    <TextView
+        android:text="Money Lover"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/ic_launcher"
+        android:id="@+id/imageView"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:ems="10"
+        android:maxLength="5"
+        android:hint="Nhập mã PIN"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="26dp"
+        android:id="@+id/etLogin" />
+
+    <Button
+        android:text="Đăng nhập"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etLogin"
+        android:id="@+id/btnLogin"
+        android:textColor="#075b57"
+        android:background="#30dfb7"
+        android:layout_alignEnd="@+id/etLogin"
+        android:layout_alignStart="@+id/etLogin" />
+
+    <Button
+        android:text="Đổi mã PIN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnLogin"
+        android:id="@+id/btnReset"
+        android:textColor="#14efe4"
+        android:background="#646464"
+        android:layout_alignStart="@+id/btnLogin"
+        android:layout_alignEnd="@+id/btnLogin" />
+    <TextView
+        android:text="Mã PIN mặc định là: 12345"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnReset"
+        android:layout_alignStart="@+id/btnReset"/>
+</RelativeLayout>
